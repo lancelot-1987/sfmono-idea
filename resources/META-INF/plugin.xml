@@ -1,0 +1,36 @@
+<idea-plugin version="2">
+    <id>com.lancelot.sfmono</id>
+    <name>SF Mono font for IDEA</name>
+    <version>1.0</version>
+    <vendor url="http://www.github.com/lancelot-1987">Lancelot-1987</vendor>
+
+    <description><![CDATA[
+      Brings SF Mono editor font to IntelliJ-based IDEs
+    ]]></description>
+
+    <change-notes><![CDATA[
+        Initial release.
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="141.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+    <application-components>
+        <component>
+            <implementation-class>com.lancelot.sfmono.SFMonoComponent</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
