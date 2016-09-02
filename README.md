@@ -3,7 +3,7 @@ Plugin for Intellij-based IDEs which adds support for San Francisco Mono font in
 It copies SF Mono to the needed location and automatically sets it as a default font in editor.  
 
 **System requirements:**
-- OSX 10.11 with Xcode 8 beta installed
+- OSX 10.11 with Xcode 8 beta installed (/Applications/Xcode-beta.app, it's required)
 or
 - OSX 10.12
 
@@ -13,3 +13,6 @@ or
 
 **Uninstall**
 - Just uninstall the plugin from the IDE interface and restart the IDE
+
+**Future tasks**
+- Implement notifications about font installation
