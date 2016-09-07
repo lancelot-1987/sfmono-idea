@@ -1,5 +1,5 @@
-# sfmono-idea
-Plugin for Intellij-based IDEs which adds support for San Francisco Mono font in editor.
+# San Francisco Mono for IntelliJ
+Plugin for IntelliJ-based IDEs which adds support for San Francisco Mono font in editor.
 It copies SF Mono to the needed location and automatically sets it as a default font in editor.  
 
 **System requirements:**
